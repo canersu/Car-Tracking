@@ -20,6 +20,7 @@ Goal of this project is to detect and draw boundries around cars. YOLOv3 algorit
 
 1. Clone this repo.
 2. Make a build directory in the top level directory: `mkdir build && cd build`
-3. Compile: `cmake .. && make`
-4. Run it: `./car_tracking`.
+3. Get the yolov3.weights bu running: `cd src && sh getweights.sh`
+4. Compile: `cmake .. && make`
+5. Run it: `./car_tracking`.
 
