@@ -30,3 +30,7 @@ In main.cpp, a loop starts with the first frame of video till the last frame. Fi
 4. Compile: `cmake .. && make`
 5. Run it: `./car_tracking`.
 
+## References
+
+https://www.learnopencv.com/deep-learning-based-object-detection-using-yolov3-with-opencv-python-c/
+https://docs.opencv.org/4.1.2/d2/d58/tutorial_table_of_content_dnn.html
