@@ -26,6 +26,15 @@ vector<string> PreOps::getLabels()
     return classes;
 }
 
+vector<string> PreOps::getLabels(string filename)
+{
+    vector<string> classes;
+    ifstream ifs(filename.c_str());
+    string line;
+    while (getline(ifs, line)) classes.push_back(line);
+    return classes;
+}
+
 VideoCapture PreOps::readVideo()
 {
     VideoCapture cap;

@@ -20,6 +20,7 @@ public:
 
     Net networkLoader();
     vector<string> getLabels();
+    vector<string> getLabels(string filename);
     VideoCapture readVideo();
 
 private:
